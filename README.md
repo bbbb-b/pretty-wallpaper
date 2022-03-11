@@ -27,6 +27,7 @@ Might write a proper way to generate them, but the algorithm I have in mind woul
 
 # Running
 ```bash
+git submodule update --init --recursive
 cmake -B out
 cd out
 make
