@@ -6,6 +6,11 @@ Projects uses OpenGL and  C++ to make a window that generates some visuals.
 The `Renderer` class takes care of all the structure so
 the base classes can just do the drawing.
 
+Note about the whole 'wallpaper' thing:
+`Renderer::is_window_wallpaper`, then `Renderer::make_window_wallpaper()` are responsible for the render being drawn as a wallpaper,
+but it just does some X11 stuff that might not work on every window manager.
+It works fine for me on i3 and that's all I really care about.
+
 (more images in [images](images/))
 
 ## CircleRenderer
