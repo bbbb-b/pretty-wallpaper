@@ -2,6 +2,7 @@
 The idea is that using graphics libraries and basic maths
 actually makes some really good looking visuals.
 
+Projects uses OpenGL and  C++ to make a window that generates some visuals.
 The `Renderer` class takes care of all the structure so
 the base classes can just do the drawing.
 
